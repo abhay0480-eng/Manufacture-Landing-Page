@@ -17,7 +17,7 @@ const Header = () => {
       
       {/* Mobile Menu Button */}
       <div className="md:hidden flex items-center">
-        <button onClick={toggleMenu} className="text-white">
+        <button onClick={toggleMenu} className="text-black">
           {isMenuOpen ? 'Close' : 'Menu'} {/* Change button text based on menu state */}
         </button>
       </div>
