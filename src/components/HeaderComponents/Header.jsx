@@ -58,7 +58,7 @@ const Header = () => {
         </NavLink>
       </div>
 
-      <div className='flex justify-start items-center gap-x-2 '>
+      <div className=' justify-start items-center gap-x-2 hidden md:flex '>
         <button className='border-[1px] border-[#8D959D] rounded-3xl px-3 py-2 shadow-sm '>Log in</button>
         <button className='border-[1px] border-[#00d47e] bg-[#00d47e] text-white rounded-3xl px-3 py-2 shadow-sm '>Get in touch</button>
       </div>
