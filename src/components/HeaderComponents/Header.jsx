@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
  
@@ -18,7 +20,7 @@ const Header = () => {
       {/* Mobile Menu Button */}
       <div className="md:hidden flex items-center">
         <button onClick={toggleMenu} className="text-black">
-          {isMenuOpen ? 'Close' : 'Menu'} {/* Change button text based on menu state */}
+          {isMenuOpen ? <CloseIcon/> : <MenuIcon/>} {/* Change button text based on menu state */}
         </button>
       </div>
 
